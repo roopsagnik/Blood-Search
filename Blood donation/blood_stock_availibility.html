@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Blood-Stock-Availibility</title>
+
+        <link rel="stylesheet" href="blood_stock_availibility.css">
+        <link rel="stylesheet" href="blood_stock_availibility_queries.css">
+    </head>
+
+
+    <body>
+
+        <div class="desktop-1">
+
+            <div class="frame-1">
+              <div class="blood-stock-availability">Blood Stock Availability</div>
+            </div>
+
+            <div class="frame-2">
+              <div class="search-for-blood">Search For Blood</div>
+            </div>
+
+            <div class="frame-3">
+
+              <select name="state" class="frame-4 " id="stateSelect">
+                <option value="select">Select State</option>
+                <option value="Andhra Pradesh">Andhra Pradesh</option>
+                <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                <option value="Assam">Assam</option>
+                <option value="Bihar">Bihar</option>
+                <option value="Chhattisgarh">Chhattisgarh</option>
+                <option value="Goa">Goa</option>
+                <option value="Gujarat">Gujarat</option>
+                <option value="Haryana">Haryana</option>
+                <option value="Himachal Pradesh">Himachal Pradesh</option>
+                <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                <option value="Jharkhand">Jharkhand</option>
+                <option value="Karnataka">Karnataka</option>
+                <option value="Kerala">Kerala</option>
+                <option value="Madhya Pradesh">Madhya Pradesh</option>
+                <option value="Maharashtra">Maharashtra</option>
+                <option value="Manipur">Manipur</option>
+                <option value="Meghalaya">Meghalaya</option>
+                <option value="Mizoram">Mizoram</option>
+                <option value="Nagaland">Nagaland</option>
+                <option value="Odisha">Odisha</option>
+                <option value="Punjab">Punjab</option>
+                <option value="RRajasthan">Rajasthan</option>
+                <option value="Sikkim">Sikkim</option>
+                <option value="Tamil Nadu">Tamil Nadu</option>
+                <option value="Telangana">Telangana</option>
+                <option value="Tripura">Tripura</option>
+                <option value="Uttarakhand">Uttarakhand</option>
+                <option value="Uttar Pradesh">Uttar Pradesh</option>
+                <option value="West Bengal">West Bengal</option>
+                <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+                <option value="Chandigarh">Chandigarh</option>
+                <option value="Dadra and Nagar Haveli">Dadra and Nagar Haveli</option>
+                <option value="Daman and Diu">Daman and Diu</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Lakshadweep">Lakshadweep</option>
+                <option value="Puducherry">Puducherry</option>
+                
+              </select>
+
+                <!-- <div class="frame-4">
+                    <div class="select-state">
+                      <select name="state" id="state" >
+                        <option value="select">Select State</option>
+                        <option value="WB">West Ben</option>
+                      </select>
+                    </div>
+                </div> -->
+
+
+                <select name="district"  class="frame-5 " id="districtSelect">
+                  <option value="select">Select District</option>
+                  
+                </select>
+
+
+
+                <!-- <div class="frame-5">
+                    <div class="select-district">Select District</div>
+                </div> -->
+
+                <select name="blood-group" id="blood-group" class="frame-6 ">
+                  <option value="select">Select Blood Group</option>
+                  <option value=""> A+</option>
+                  <option value=""> O+ </option>
+                  <option value=""> B+ </option>
+                  <option value=""> AB+ </option>
+                  <option value=""> A- </option>
+                  <option value=""> O- </option>
+                  <option value=""> B- </option>
+                  <option value=""> AB- </option>
+                  
+                </select>
+
+
+                <!-- <div class="frame-6">
+                    <div class="select-blood-group">Select Blood Group</div>
+                </div> -->
+
+                <select name="blood-component" id="blood-component" class="frame-7 ">
+                  <option value="select">Select Blood Component</option>
+                  <option value="11">Whole Blood</option>
+                  <option value="14">Single Donor Platelet</option>
+                  <option value="18">Single Donor Plasma</option>
+                  <option value="28">Sagm Packed Red Blood Cells</option>
+                  <option value="24">Platelets additive solutions</option>
+                  <option value="24">Platelets additive solutions</option>
+                  <option value="20">Platelet Concentrate</option>
+                  <option value="20">Platelet Concentrate</option>
+                  <option value="19">Plasma</option>
+                  <option value="12">Packed Red Blood Cells</option>
+                  <option value="30">Leukoreduced Rbc</option>
+                  <option value="29">Irradiated RBC</option>
+                  <option value="13">Fresh Frozen Plasma</option>
+                  <option value="17">Cryoprecipitate</option>
+                  <option value="21">Cryo Poor Plasma</option>
+                </select>
+
+                <!-- <div class="frame-7">
+                    <div class="select-blood-component">Select Blood Component</div>
+                </div> -->
+             </div>
+
+             
+            
+                <button class="frame-8">
+                  <div class="search">Search</div>
+                </button>
+
+                <div class="frame-9">
+                  <img class="calendar" src="img/calendar.png" />
+                  <div class="select-state-and-district">
+                    Select State and District for stock availability.
+                  </div>
+                </div>
+
+                <div class="frame-10">
+                    <div class="frame-11">
+                      <div class="serial-no">S-No</div>
+                    </div>
+
+                    <div class="frame-12">
+                      <div class="blood-bank">Blood Bank</div>
+                    </div>
+
+                    <div class="frame-13">
+                      <div class="category">Category</div>
+                    </div>
+
+                    <div class="frame-14">
+                      <div class="availability">Availability</div>
+                    </div>
+
+                    <div class="frame-15">
+                      <div class="last-updated">Last Updated</div>
+                    </div>
+
+                    <div class="frame-16">
+                      <div class="type">Type</div>
+                    </div>
+
+                </div>
+
+                 <div class="frame-17"></div>
+         </div>
+          
+
+         <script src="profile.js"></script>
+    </body>
+</html>

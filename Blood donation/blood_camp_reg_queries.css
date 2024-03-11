@@ -1,0 +1,568 @@
+@media(max-width: 1100px){
+
+    .frame-1{
+      width: 600px;
+      background-color: rgba(248, 238, 238, 0.4);
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      overflow: hidden;
+      transform: translate(-50%, -50%);
+  
+    }
+  
+    .frame-2{
+      width: 600px;
+    }
+
+    .blood-camp-registration{
+        position: absolute;
+        left: 200px;
+        overflow: hidden;
+    }
+  
+    .frame-3{
+        width: 210px;
+        height: 70px;
+    }
+
+    .organization-name {
+        font-size: 15px;
+    }
+
+    .rectangle-1{
+        width: 210px;
+    }
+
+    .frame-4{
+        width: 210px;
+        height: 70px;
+        position: absolute;
+        left: 336px;
+        top: 95px;
+        overflow: hidden;
+    }
+
+    .organizer-name {
+        font-size: 15px;
+    }
+
+    .frame-5{
+        width: 210px;
+        height: 70px;
+    }
+
+    .organizer-mobile-no {
+        font-size: 15px;
+    }
+
+    .frame-6{
+        width: 210px;
+        height: 70px;
+        position: absolute;
+        left: 336px;
+        top: 193px;
+        overflow: hidden;
+    }
+
+    .organizer-email-id {
+        font-size: 15px;
+    }
+
+
+    .frame-7{
+        width: 210px;
+        height: 70px;
+    }
+    
+    .co-organizer-name {
+        font-size: 15px;
+    }
+
+
+    .frame-8{
+        width: 210px;
+        height: 70px;
+        position: absolute;
+        left: 336px;
+        top: 291px;
+        overflow: hidden;
+    }
+
+    .co-organizer-phone-no {
+        font-size: 15px;
+    }
+
+
+    .frame-9{
+        width: 210px;
+        height: 70px;
+    }
+
+    .camp-name {
+        font-size: 15px;
+    }
+
+
+    .frame-10{
+        width: 210px;
+        height: 70px;
+        position: absolute;
+        left: 336px;
+        top: 389px;
+        overflow: hidden;
+    }
+
+    .camp-address {
+        font-size: 15px;
+    }
+
+
+    .frame-11{
+        width: 210px;
+        height: 70px;
+    }
+
+    .state {
+        font-size: 15px;
+    }
+
+    .frame-12{
+        width: 210px;
+        height: 70px;
+        position: absolute;
+        left: 336px;
+        top: 487px;
+        overflow: hidden;
+    }
+
+    .District {
+        font-size: 15px;
+    }
+
+    .frame-13{
+        width: 210px;
+        height: 70px;
+    }
+
+    .city-name {
+        font-size: 15px;
+    }
+
+    .frame-14{
+        width: 210px;
+        height: 70px;
+        position: absolute;
+        left: 336px;
+        top: 585px;
+        overflow: hidden;
+    }
+
+    .blood-bank {
+        font-size: 15px;
+    }
+
+    .frame-15{
+        width: 210px;
+        height: 70px;
+    }
+
+    .camp-propose-date {
+        font-size: 15px;
+    }
+
+    .frame-16{
+        width: 210px;
+        height: 70px;
+        position: absolute;
+        left: 336px;
+        top: 683px;
+        overflow: hidden;
+    }
+
+    .start-to-end-time {
+        font-size: 15px;
+    }
+
+    .rectangle-2{
+        width: 56px;
+        left: 0;
+    }
+
+    .rectangle-3{
+        width: 36px;
+        position: absolute;
+        left:60px;
+    }
+
+    .rectangle-4{
+        width: 56px;
+        position: absolute;
+        left: 110px;
+    }
+
+    .rectangle-5{
+        width: 36px;
+        position: absolute;
+        left: 170px;
+    }
+
+
+    .frame-17{
+        width: 210px;
+        height: 70px;
+    }
+
+    .estimated-participants {
+        font-size: 15px;
+    }
+
+    .frame-18{
+        width: 210px;
+        height: 70px;
+        position: absolute;
+        left: 336px;
+        top: 781px;
+        overflow: hidden;
+    }
+
+    .remarks{
+        font-size: 15px;
+    }
+
+    .frame-19{
+        width: 116px;
+        height: 39px;
+        position: absolute;
+        left: 180px;
+        top: 907px;
+        overflow: hidden;
+    }
+
+    .frame-20{
+        width: 116px;
+        height: 39px;
+        position: absolute;
+        left: 304px;
+        top: 907px;
+        overflow: hidden;
+    }
+  }
+
+
+
+  /* ------------------------------------------- 
+                    For Tablet
+  ----------------------------------------------- */
+
+
+  @media(max-width: 900px){
+
+    .frame-1{
+      width: 600px;
+      background-color: rgba(248, 238, 238, 0.4);
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      overflow: hidden;
+      transform: translate(-50%, -50%);
+  
+    }
+
+  }
+
+
+  /* ------------------------------------------- 
+                    For Mobile
+  ----------------------------------------------- */
+
+
+  @media(max-width: 500px){
+ 
+    .frame-1{
+      width: 320px;
+      height: 100%;
+      background-color: rgba(248, 238, 238, 0.4);
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      overflow: hidden;
+      transform: translate(-50%, -50%);
+  
+    }
+
+    .frame-2{
+        width: 320px;
+      }
+  
+    .blood-camp-registration{
+        font-size: 17px;
+        position: absolute;
+        left: 65px;
+        overflow: hidden;
+    }
+
+    .frame-3{
+        width: 220px;
+        position: absolute;
+        overflow: hidden;
+        top:70px;   /* 95 chilo ekdom top */
+        left: 50px;
+    }
+
+    .organization-name {
+        font-size: 14px;
+    }
+
+    .rectangle-1{
+        width: 220px;
+        height: 34px;
+    }
+
+
+    .frame-4{
+        width: 220px;
+        height: 70px;
+        position: absolute;
+        left: 50px;
+        top: 150px;
+        overflow: hidden;
+    }
+
+    .organizer-name {
+        font-size: 15px;
+    }
+
+
+    .frame-5{
+        width: 220px;
+        position: absolute;
+        overflow: hidden;
+        top:178px;   /* 95 chilo ekdom top */
+        left: 50px;
+    }
+
+    .organizer-mobile-no {
+        font-size: 15px;
+    }
+
+    .frame-6{
+        width: 220px;
+        height: 70px;
+        position: absolute;
+        left: 50px;
+        top: 193px;
+        overflow: hidden;
+    }
+
+    .organizer-email-id {
+        font-size: 15px;
+    }
+
+
+    .frame-7{
+        width: 220px;
+        height: 70px;
+        position: absolute;
+        top: 291px;
+        left: 50px;
+        overflow: hidden;
+    }
+    
+    .co-organizer-name {
+        font-size: 15px;
+    }
+
+
+    .frame-8{
+        width: 220px;
+        height: 70px;
+        position: absolute;
+        left: 50px;
+        top: 306px;
+        overflow: hidden;
+    }
+
+    .co-organizer-phone-no {
+        font-size: 15px;
+    }
+
+
+    .frame-9{
+        width: 220px;
+        height: 70px;
+        position: absolute;
+        left: 50px;
+        top: 389px;
+        overflow: hidden;
+    }
+
+    .camp-name {
+        font-size: 15px;
+    }
+
+
+    .frame-10{
+        width: 220px;
+        height: 70px;
+        position: absolute;
+        left: 50px;
+        top: 404px;
+        overflow: hidden;
+    }
+
+    .camp-address {
+        font-size: 15px;
+    }
+
+
+    .frame-11{
+        width: 220px;
+        height: 70px;
+        position: absolute;
+        left: 50px;
+        top: 487px;
+        overflow: hidden;
+    }
+
+    .state {
+        font-size: 15px;
+    }
+
+    .frame-12{
+        width: 220px;
+        height: 70px;
+        position: absolute;
+        left: 50px;
+        top: 502px;
+        overflow: hidden;
+    }
+
+    .District {
+        font-size: 15px;
+    }
+
+    .frame-13{
+        width: 220px;
+        height: 70px;
+        position: absolute;
+        left: 50px;
+        top: 585px;
+        overflow: hidden;
+    }
+
+    .city-name {
+        font-size: 15px;
+    }
+
+    .frame-14{
+        width: 220px;
+        height: 70px;
+        position: absolute;
+        left: 50px;
+        top: 600px;
+        overflow: hidden;
+    }
+
+    .blood-bank {
+        font-size: 15px;
+    }
+
+    .frame-15{
+        width: 220px;
+        height: 70px;
+        position: absolute;
+        left: 50px;
+        top: 683px;
+        overflow: hidden;
+    }
+
+    .camp-propose-date {
+        font-size: 15px;
+    }
+
+    .frame-16{
+        width: 220px;
+        height: 70px;
+        position: absolute;
+        left: 50px;
+        top: 698px;
+        overflow: hidden;
+    }
+
+    .start-to-end-time {
+        font-size: 15px;
+    }
+
+    .rectangle-2{
+        width: 59px;
+        height: 34px;
+        left: 0;
+    }
+
+    .rectangle-3{
+        width: 39px;
+        height: 34px;
+        position: absolute;
+        left:64px;
+    }
+
+    .rectangle-4{
+        width: 59px;
+        height: 34px;
+        position: absolute;
+        left: 117px;
+    }
+
+    .rectangle-5{
+        width: 39px;
+        height: 34px;
+        position: absolute;
+        left: 181px;
+    }
+
+
+    .frame-17{
+        width: 220px;
+        height: 70px;
+        position: absolute;
+        left: 50px;
+        top: 781px;
+        overflow: hidden;
+    }
+
+    .estimated-participants {
+        font-size: 15px;
+    }
+
+    .frame-18{
+        width: 220px;
+        height: 70px;
+        position: absolute;
+        left: 50px;
+        top: 796px;
+        overflow: hidden;
+    }
+
+    .remarks{
+        font-size: 15px;
+    }
+
+    .frame-19{
+        width: 116px;
+        height: 39px;
+        position: absolute;
+        left: 70px;
+        top: 907px;
+        overflow: hidden;
+    }
+
+    .frame-20{
+        width: 116px;
+        height: 39px;
+        position: absolute;
+        left: 70px;
+        top: 950px;
+        overflow: hidden;
+    }
+  }

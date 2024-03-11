@@ -1,0 +1,227 @@
+/* .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  } */
+
+  /*------------------------------------------*/
+
+.container,
+.dcontainer * {
+  box-sizing: border-box;
+}
+
+.container{
+  background: #ffffff;
+  width: 1440px;
+  height: 750px;
+  /* position: relative;
+  overflow: hidden; */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.frame-1 {
+    width: 265px;
+    height: 51px;
+    position: absolute;
+    left: 160px;
+    top: 112px;
+    overflow: hidden;
+   }
+
+.blood-stock-availability {
+    color: #ce0000;
+    text-align: left;
+    font: 500 22px "Inter", sans-serif;
+    position: absolute;
+    left: 0px;
+    top: 12px;
+  }
+  
+
+.frame-2 {
+    background: #aa4848;
+    width: 1120px;
+    height: 44px;
+    position: absolute;
+    left: 160px;
+    top: 186px;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+    overflow: hidden;
+  }
+  
+.search-for-blood {
+    color: #ffffff;
+    text-align: left;
+    font: 500 16px "Inter", sans-serif;
+    position: absolute;
+    left: 19px;
+    top: 13px;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+  }
+
+  #frame-3 {
+    border-radius: 0px 0px 10px 10px;
+    border-style: solid;
+    border-color: #d0b8b8;
+    border-width: 1px;
+    width: 1119px;
+    height: 160px;
+    position: absolute;
+    left: 160px;
+    top: 230px;
+    overflow: hidden;
+  }
+
+  .frame-4 {
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #d0b8b8;
+    border-width: 1px;
+    width: 232px;
+    height: 36px;
+    position: absolute;
+    left: 13px;
+    top: 34px;
+    overflow: hidden;
+    color: #7b7373;
+    text-align: left;
+    font: 500 14px "Inter", sans-serif;
+  }
+
+  .frame-5 {
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #d0b8b8;
+    border-width: 1px;
+    width: 232px;
+    height: 36px;
+    position: absolute;
+    left: 302px;
+    top: 34px;
+    overflow: hidden;
+    color: #7b7373;
+    text-align: left;
+    font: 500 14px "Inter", sans-serif;
+  }
+
+.frame-6 {
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #d0b8b8;
+    border-width: 1px;
+    width: 232px;
+    height: 36px;
+    position: absolute;
+    left: 588px;
+    top: 34px;
+    overflow: hidden;
+    color: #7b7373;
+    text-align: left;
+    font: 500 14px "Inter", sans-serif;
+  }
+
+.frame-7 {
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #d0b8b8;
+    border-width: 1px;
+    width: 232px;
+    height: 36px;
+    position: absolute;
+    left: 874px;
+    top: 34px;
+    overflow: hidden;
+    color: #7b7373;
+    text-align: left;
+    font: 500 14px "Inter", sans-serif;
+  }
+  
+
+
+.frame-8 {
+    background: #d35c5c;
+    border-radius: 20px;
+    width: 119px;
+    height: 40px;
+    position: absolute;
+    left: 504px;
+    top: 100px;
+    overflow: hidden;
+    border-style: none;
+  }
+  
+.frame-8:hover{
+    background: #9e3f3f;
+  }
+  
+.search {
+    color: #ffffff;
+    text-align: left;
+    font: 500 18px "Inter", sans-serif;
+    position: absolute;
+    left: 30px;
+    top: 9px;
+  }
+
+
+  .frame-9 {
+    background: #efefef;
+    border-radius: 50px;
+    width: 1120px;
+    height: 49px;
+    position: absolute;
+    left: 160px;
+    top: 433px;
+    overflow: hidden;
+  }
+  
+  .calendar {
+    width: 40px;
+    height: 36px;
+    position: absolute;
+    left: 20px;
+    top: 6px;
+  }
+  
+  .select-state-and-district {
+    color: #5e5d5d;
+    text-align: left;
+    font: 500 16px "Inter", sans-serif;
+    position: absolute;
+    left: 90px;
+    top: 15px;
+    width: 393px;
+  }

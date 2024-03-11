@@ -1,0 +1,366 @@
+.desktop-1,
+.desktop-1 * {
+  box-sizing: border-box;
+}
+
+.desktop-1 {
+  background: #ffffff;
+  width: 1440px;
+  height: 750px;
+  /* position: relative;
+  overflow: hidden; */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.frame-1 {
+  width: 265px;
+  height: 51px;
+  position: absolute;
+  left: 160px;
+  top: 112px;
+  overflow: hidden;
+}
+
+.blood-stock-availability {
+  color: #ce0000;
+  text-align: left;
+  font: 500 22px "Inter", sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 12px;
+}
+
+.frame-2 {
+  background: #aa4848;
+  width: 1120px;
+  height: 44px;
+  position: absolute;
+  left: 160px;
+  top: 186px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+  overflow: hidden;
+}
+
+.search-for-blood {
+  color: #ffffff;
+  text-align: left;
+  font: 500 16px "Inter", sans-serif;
+  position: absolute;
+  left: 19px;
+  top: 13px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+
+.frame-3 {
+  border-radius: 0px 0px 10px 10px;
+  border-style: solid;
+  border-color: #d0b8b8;
+  border-width: 1px;
+  width: 1120px;
+  height: 103px;
+  position: absolute;
+  left: 160px;
+  top: 230px;
+  overflow: hidden;
+}
+
+.frame-4 {
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #d0b8b8;
+  border-width: 1px;
+  width: 232px;
+  height: 36px;
+  position: absolute;
+  left: 13px;
+  top: 34px;
+  overflow: hidden;
+  color: #7b7373;
+  text-align: left;
+  font: 500 14px "Inter", sans-serif;
+}
+
+
+
+.frame-5 {
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #d0b8b8;
+  border-width: 1px;
+  width: 232px;
+  height: 36px;
+  position: absolute;
+  left: 302px;
+  top: 34px;
+  overflow: hidden;
+  color: #7b7373;
+  text-align: left;
+  font: 500 14px "Inter", sans-serif;
+}
+
+
+
+.frame-6 {
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #d0b8b8;
+  border-width: 1px;
+  width: 232px;
+  height: 36px;
+  position: absolute;
+  left: 588px;
+  top: 34px;
+  overflow: hidden;
+  color: #7b7373;
+  text-align: left;
+  font: 500 14px "Inter", sans-serif;
+}
+
+
+
+.frame-7 {
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #d0b8b8;
+  border-width: 1px;
+  width: 232px;
+  height: 36px;
+  position: absolute;
+  left: 874px;
+  top: 34px;
+  overflow: hidden;
+  color: #7b7373;
+  text-align: left;
+  font: 500 14px "Inter", sans-serif;
+}
+
+.select-blood-component {
+  color: #7b7373;
+  text-align: left;
+  font: 500 14px "Inter", sans-serif;
+  position: absolute;
+  left: 9px;
+  top: 10px;
+}
+
+.chevron-down4 {
+  position: absolute;
+  left: 211px;
+  top: 12px;
+  overflow: visible;
+}
+
+.frame-8 {
+  background: #d35c5c;
+  border-radius: 20px;
+  width: 119px;
+  height: 40px;
+  position: absolute;
+  left: 661px;
+  top: 355px;
+  overflow: hidden;
+  border-style: none;
+}
+
+.frame-8:hover{
+  background: #9e3f3f;
+}
+
+.search {
+  color: #ffffff;
+  text-align: left;
+  font: 500 18px "Inter", sans-serif;
+  position: absolute;
+  left: 30px;
+  top: 9px;
+}
+
+.frame-9 {
+  background: #efefef;
+  border-radius: 50px;
+  width: 1120px;
+  height: 49px;
+  position: absolute;
+  left: 160px;
+  top: 433px;
+  overflow: hidden;
+}
+
+.calendar {
+  width: 40px;
+  height: 36px;
+  position: absolute;
+  left: 20px;
+  top: 6px;
+}
+
+.select-state-and-district {
+  color: #5e5d5d;
+  text-align: left;
+  font: 500 16px "Inter", sans-serif;
+  position: absolute;
+  left: 90px;
+  top: 15px;
+  width: 393px;
+}
+
+.frame-10 {
+  background: #aa4848;
+  width: 1120px;
+  height: 42px;
+  position: absolute;
+  left: 160px;
+  top: 520px;
+  overflow: hidden;
+}
+
+.frame-11 {
+  border-style: solid;
+  border-color: #fafafa;
+  border-width: 0px 1px 0px 0px;
+  width: 109px;
+  height: 42px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+
+.serial-no {
+  color: #ffffff;
+  text-align: left;
+  font: 500 16px "Inter", sans-serif;
+  position: absolute;
+  left: 36px;
+  top: 11px;
+}
+
+.frame-12 {
+  border-style: solid;
+  border-color: #fafafa;
+  border-width: 0px 1px 0px 0px;
+  width: 319px;
+  height: 42px;
+  position: absolute;
+  left: 109px;
+  top: 0px;
+  overflow: hidden;
+}
+
+.blood-bank {
+  color: #ffffff;
+  text-align: left;
+  font: 500 16px "Inter", sans-serif;
+  position: absolute;
+  left: 116px;
+  top: 11px;
+}
+
+.frame-13 {
+  border-style: solid;
+  border-color: #fafafa;
+  border-width: 0px 1px 0px 0px;
+  width: 160px;
+  height: 41px;
+  position: absolute;
+  left: 428px;
+  top: 0px;
+  overflow: hidden;
+}
+
+.category {
+  color: #ffffff;
+  text-align: left;
+  font: 500 16px "Inter", sans-serif;
+  position: absolute;
+  left: 44px;
+  top: 11px;
+}
+
+.frame-14 {
+  border-style: solid;
+  border-color: #fafafa;
+  border-width: 0px 1px 0px 0px;
+  width: 252px;
+  height: 42px;
+  position: absolute;
+  left: 588px;
+  top: 0px;
+  overflow: hidden;
+}
+
+.availability {
+  color: #ffffff;
+  text-align: left;
+  font: 500 16px "Inter", sans-serif;
+  position: absolute;
+  left: 84px;
+  top: 11px;
+}
+
+.frame-15 {
+  border-style: solid;
+  border-color: #fafafa;
+  border-width: 0px 1px 0px 0px;
+  width: 160px;
+  height: 42px;
+  position: absolute;
+  left: 840px;
+  top: 0px;
+  overflow: hidden;
+}
+
+.last-updated {
+  color: #ffffff;
+  text-align: left;
+  font: 500 16px "Inter", sans-serif;
+  position: absolute;
+  left: 28px;
+  top: 11px;
+}
+
+.frame-16 {
+  border-style: solid;
+  border-color: #fafafa;
+  border-width: 0px 1px 0px 0px;
+  width: 118px;
+  height: 42px;
+  position: absolute;
+  left: 1002px;
+  top: 0px;
+  overflow: hidden;
+}
+
+.type {
+  color: #ffffff;
+  text-align: left;
+  font: 500 16px "Inter", sans-serif;
+  position: absolute;
+  left: 40px;
+  top: 11px;
+}
+
+.frame-17 {
+  border-radius: 0px 0px 10px 10px;
+  border-style: solid;
+  border-color: #d0b8b8;
+  border-width: 1px;
+  width: 1119px;
+  height: 103px;
+  position: absolute;
+  left: 160px;
+  top: 562px;
+  overflow: hidden;
+}
+
+
+
+/* ----------------------------------------------------------------------------- */
+
+
+

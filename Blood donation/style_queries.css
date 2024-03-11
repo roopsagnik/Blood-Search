@@ -1,0 +1,553 @@
+@media screen and (max-width: 1100px) and (min-width:1000px){
+    
+    .frame-1 {
+    background: #f8ece9;
+        border-radius: 0px 0px 240px 0px;
+        width: 100%;
+        height: 620px;
+        position: relative;
+        overflow: hidden;
+    } 
+
+    .logo {
+        left: 38px; /* Adjust the logo position for smaller screens */
+        top: 10px;
+    }
+
+    .blood {
+        font-size: 22px; /* Adjust font size for smaller screens */
+        left: 84px; /* Adjust the blood text position for smaller screens */
+        top: 26px;
+    }
+
+    .frame-2 {
+        flex-direction: row; /* Change to a column layout for smaller screens */
+        align-items: center;
+        justify-content: center;
+        width: 100%; /* Take full width of the screen */
+        left: 0; /* Adjust the left position for smaller screens */
+        top: 27px;
+    }
+
+    .home {
+         font: 600 19px 'Mulish';
+        }
+
+    .about-us {
+         font: 600 19px 'Mulish'; 
+        }
+
+
+    .searching-for-blood {
+        font: 600 19px 'Mulish';
+         }
+     
+    .donor {
+        font: 600 19px 'Mulish', sans-serif;
+    }
+
+
+    .frame-3 {
+        width: auto; /* Adjust width as needed */
+        left: 900px; /* Adjust left position as needed */
+        top: 26px;
+    }
+
+    .login {
+        font: 600 19px 'Mulish', sans-serif;
+    }
+         
+    .hash {
+        text-align: center;
+        font: 700 40.14px 'Mulish', sans-serif;
+        position: absolute;
+        left: 100px;
+        top: 164px;
+        }
+        
+    .be-hero {
+        color: #ce0000;
+        text-align: center;
+        font: 700 24.76px 'Mulish', sans-serif;
+        position: absolute;
+        left: 100px;
+        top: 220px;
+        }
+        
+    .donate-blood {
+        color: #ce0000;
+        text-align: center;
+        font: 700 24.76px 'Mulish', sans-serif;
+        position: absolute;
+        left: 100px;
+        top: 260px;
+        }
+
+    .your-blood-has-the-power-to-save-lives {
+        color: #000000;
+        text-align: left;
+        font: 600 17.72px 'Mulish', sans-serif;
+        position: absolute;
+        left: 100px;
+        top: 326.39px;
+        }
+        
+    .plus-sign {
+        color: #ce0000;
+        text-align: left;
+        font: 400 31.28px 'Inter', sans-serif;
+        position: absolute;
+        left: 100px;
+        top: 377px;
+        }
+        
+    .minus-sign {
+        color: #ce0000;
+        text-align: left;
+        font: 400 31.28px 'Inter', sans-serif;
+        position: absolute;
+        left: 200px;
+        top: 377px;
+        }
+        
+    .there {
+        color: rgba(17, 17, 17, 0.71);
+        text-align: left;
+        font: 400 15.38px 'Inter', sans-serif;
+        position: absolute;
+        left: 100px;
+        top: 434.22px;
+        }
+
+    .image {
+        width: 440px;
+        height: 440px;
+        position: absolute;
+        left: 600px;
+        top: 140px;
+        }
+     
+         
+    .frame-4 {
+        background: #e66262;
+        border-radius: 20px;
+        width: 160px;
+        height: 38px;
+        position: absolute;
+        left: 100px;
+        top: 528px;
+        overflow: hidden;
+        }
+
+    .register-now {
+        font: 700 15px 'Mulish', sans-serif;
+        }
+
+    .communication {
+        width: 54px;
+        height: 43px;
+        position: absolute;
+        left: 940px;
+        top: 523px;
+        }
+  
+}
+
+ /* ------------------------------------------- 
+                    For Tablet
+  ----------------------------------------------- */
+
+  @media screen and (max-width: 900px)
+  {
+    
+    .frame-1 {
+         background: #f8ece9;
+         border-radius: 0px 0px 0px 0px;
+         width: 100%;
+         height: 740px;
+         position: relative;
+         overflow: hidden;
+        }
+
+    .logo {
+        left: 26px; /* Adjust the logo position for smaller screens */
+        top: 18px;
+    }
+
+    .blood {
+        font-size: 22px; /* Adjust font size for smaller screens */
+        left: 70px; /* Adjust the blood text position for smaller screens */
+        top: 36px;
+    }
+
+    .frame-2 {
+        flex-direction: row; /* Change to a column layout for smaller screens */
+        align-items: center;
+        justify-content: center;
+        width: 100%; /* Take full width of the screen */
+        left: 0; /* Adjust the left position for smaller screens */
+        top: 38px;
+        
+    }
+
+    .home {
+            font: 600 18px 'Mulish';
+        }
+
+    .about-us {
+            font: 600 18px 'Mulish'; 
+        }
+
+
+    .searching-for-blood {
+        font: 600 18px 'Mulish';
+            }
+        
+    .donor {
+        font: 600 18px 'Mulish', sans-serif;
+    }
+
+
+    .frame-3 {
+        width: auto; /* Adjust width as needed */
+        left: 740px; /* Adjust left position as needed */
+        top: 34px;
+    }
+
+    .login {
+        font: 600 19px 'Mulish', sans-serif;
+    }
+
+
+    .hash {
+        text-align: center;
+        font: 700 40.14px 'Mulish', sans-serif;
+        position: absolute;
+        left: 60px;
+        top: 164px;
+        }
+        
+    .be-hero {
+        color: #ce0000;
+        text-align: center;
+        font: 700 24.76px 'Mulish', sans-serif;
+        position: absolute;
+        left: 60px;
+        top: 220px;
+        }
+        
+    .donate-blood {
+        color: #ce0000;
+        text-align: center;
+        font: 700 24.76px 'Mulish', sans-serif;
+        position: absolute;
+        left: 60px;
+        top: 260px;
+        }
+        
+    .your-blood-has-the-power-to-save-lives {
+        color: #000000;
+        text-align: left;
+        font: 600 17.72px 'Mulish', sans-serif;
+        position: absolute;
+        left: 60px;
+        top: 326.39px;
+        }
+        
+    .plus-sign {
+        color: #ce0000;
+        text-align: left;
+        font: 400 31.28px 'Inter', sans-serif;
+        position: absolute;
+        left: 60px;
+        top: 377px;
+        }
+        
+    .minus-sign {
+        color: #ce0000;
+        text-align: left;
+        font: 400 31.28px 'Inter', sans-serif;
+        position: absolute;
+        left: 160px;
+        top: 377px;
+        }
+        
+    .there {
+        color: rgba(17, 17, 17, 0.71);
+        text-align: left;
+        font: 400 15.38px 'Inter', sans-serif;
+        position: absolute;
+        left: 60px;
+        top: 434.22px;
+        }
+
+
+    .image {
+        width: 420px;
+        height: 420px;
+        position: absolute;
+        left: 390px;
+        top: 370px;
+        }
+        
+            
+    .frame-4 {
+        background: #e66262;
+        border-radius: 20px;
+        width: 160px;
+        height: 38px;
+        position: absolute;
+        left: 60px;
+        top: 550px;
+        overflow: hidden;
+        }
+
+    .register-now {
+        font: 700 15px 'Mulish', sans-serif;
+        }
+
+    .communication {
+        width: 54px;
+        height: 43px;
+        position: absolute;
+        left: 800px;
+        top: 680px;
+    }
+
+    
+}
+
+
+
+ /* ------------------------------------------- 
+                    For Phone
+  ----------------------------------------------- */
+
+@media screen and (max-width: 500px){
+    .frame-1 {
+        background: #f8ece9;
+        border-radius: 0px 0px 0px 0px;
+        width: 100%;
+        height: 720px;
+        position: relative;
+        overflow: hidden;
+    } 
+
+    .logo {
+        left: 15px; /* Adjust the logo position for smaller screens */
+        top: 10px;
+    }
+
+    .blood {
+        font-size: 18px; /* Adjust font size for smaller screens */
+        left: 60px; /* Adjust the blood text position for smaller screens */
+        top: 28px;
+    }
+
+    .frame-2 {
+        flex-direction: row;
+        align-items: flex-end;
+        top:26px;
+        padding-right: 40px;
+    }
+    
+
+    .home a::before{
+        content: none;
+     }
+
+     .about-us a::before{ 
+        content: none;
+     }
+
+     .searching-for-blood a::before{ 
+        content: none;
+     }
+
+     .donor a::before{ 
+        content: none;
+     }
+
+
+
+    .home,
+    .about-us,
+    .searching-for-blood,
+    .donor {
+        display: none;
+        width: 100%;
+        text-align: center;
+        left: 26px;
+    }
+
+    .frame-2.active .home,
+    .frame-2.active .about-us,
+    .frame-2.active .searching-for-blood,
+    .frame-2.active .donor {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    .frame-2.active.mobile-view {
+    	flex-direction: column; /* Display menu items in a column when in mobile view */
+    	border-radius: 20px 20px 20px 100px;
+        align-items: flex-end; /* Align items to the start of the container */
+        position: relative;
+        left: 260px;
+        width: 180px;
+        height: 160px;
+        background-color: rgba(227, 185, 240, 0.282);
+        line-height: normal;
+	}
+
+    .menu {
+    	cursor: pointer;
+    	font-size: 20px;
+    	display: block; /* Display the hamburger icon by default */
+        margin-left: 95%;
+        color: #e66262;
+	}
+    
+    .close {
+    	cursor: pointer;
+    	font-size: 20px;
+    	display: none; /* Hide the close button by default */
+    	position: absolute;
+    	right: 5%;
+        top:0;
+        color: #3f3e3e;
+	}
+
+    .frame-2.active.mobile-view .menu {
+    	display: none; /* Hide the hamburger icon when in mobile view */
+	}
+
+	.frame-2.active.mobile-view .close {
+    	display: block; /* Display the close button when in mobile view */
+    }
+    
+    .frame-2.active.mobile-view .home,
+	.frame-2.active.mobile-view .about-us,
+	.frame-2.active.mobile-view .searching-for-blood,
+	.frame-2.active.mobile-view .donor {
+        display:block; /* Display menu items on the right when in mobile view */
+        font-size: 13px;
+        font-weight: 600;
+       
+	}
+    
+    .frame-2.active.mobile-view .home{
+    	margin-top: 3%;
+    }
+
+
+
+    .frame-3 {
+        width: auto; /* Adjust width as needed */
+        left: 180px; /* Adjust left position as needed */
+        top: 590px;
+        background-color:rgb(148, 124, 241);
+    }
+
+
+    .frame-3:hover{
+        background: rgba(163, 71, 132, 0.686);
+        color:rgb(255, 255, 255);
+     }
+
+
+
+    .login {
+        font: 600 19px 'Mulish', sans-serif;
+    }
+
+
+    .hash {
+        text-align: center;
+        font: 700 40px 'Mulish', sans-serif;
+        position: absolute;
+        left: 230px;
+        top: 164px;
+        }
+        
+    .be-hero {
+        color: #ce0000;
+        text-align: center;
+        font: 700 24px 'Mulish', sans-serif;
+        position: absolute;
+        left: 190px;
+        top: 220px;
+        }
+        
+    .donate-blood {
+        color: #ce0000;
+        text-align: center;
+        font: 700 24px 'Mulish', sans-serif;
+        position: absolute;
+        left: 146px;
+        top: 260px;
+        }
+        
+    .your-blood-has-the-power-to-save-lives {
+        color: #000000;
+        text-align: left;
+        font: 600 17px 'Mulish', sans-serif;
+        position: absolute;
+        left: 44px;
+        top: 326.39px;
+        }
+        
+    .plus-sign {
+        color: #ce0000;
+        text-align: left;
+        font: 400 31.28px 'Inter', sans-serif;
+        position: absolute;
+        left: 180px;
+        top: 377px;
+        }
+        
+    .minus-sign {
+        color: #ce0000;
+        text-align: left;
+        font: 400 31.28px 'Inter', sans-serif;
+        position: absolute;
+        left: 276px;
+        top: 377.5px;
+        }
+
+
+
+    .there {
+        color: rgba(17, 17, 17, 0.71);
+        text-align: center;
+        /* margin-right: 20px; */
+        font: 400 15.38px 'Inter', sans-serif;
+        left: 0px;
+        top: 400px;
+        width: 480px;
+        height: 60px;
+        padding: 40px 20px;
+        }
+    
+
+    .frame-4 {
+        background: #e66262;
+        border-radius: 20px;
+        width: 156px;
+        height: 38px;
+        position: absolute;
+        left: 161px;
+        top: 530px;
+        overflow: hidden;
+        }
+    
+    .communication {
+        width: 54px;
+        height: 43px;
+        position: absolute;
+        left: 360px;
+        top: 646px;
+        }
+
+}

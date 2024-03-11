@@ -1,0 +1,178 @@
+.desktop-1,
+.desktop-1 * {
+  box-sizing: border-box;
+}
+.desktop-1 {
+  background: #ffffff;
+  width: 1440px;
+  height: 750px;
+  position: relative;
+  overflow: hidden;
+}
+
+.frame-1 {
+  width: 265px;
+  height: 51px;
+  position: absolute;
+  left: 160px;
+  top: 112px;
+  overflow: hidden;
+}
+
+.nearest-blood-bank {
+  color: #ce0000;
+  text-align: left;
+  font: 500 22px "Inter", sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 12px;
+}
+
+.frame-2 {
+  background: #aa4848;
+  width: 1120px;
+  height: 44px;
+  position: absolute;
+  left: 160px;
+  top: 186px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+  overflow: hidden;
+}
+
+.search-for-hospital {
+  color: #ffffff;
+  text-align: left;
+  font: 500 16px "Inter", sans-serif;
+  position: absolute;
+  left: 19px;
+  top: 13px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+
+
+.frame-3 {
+    border-radius: 0px 0px 10px 10px;
+    border-style: solid;
+    border-color: #d0b8b8;
+    border-width: 1px;
+    width: 1120px;
+    height: 103px;
+    position: absolute;
+    left: 160px;
+    top: 230px;
+    overflow: hidden;
+  }
+  
+  .frame-4 {
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #d0b8b8;
+    border-width: 1px;
+    width: 232px;
+    height: 36px;
+    position: absolute;
+    left: 13px;
+    top: 34px;
+    overflow: hidden;
+    color: #7b7373;
+    text-align: left;
+    font: 500 14px "Inter", sans-serif;
+  }
+  
+  
+  
+  .frame-5 {
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #d0b8b8;
+    border-width: 1px;
+    width: 232px;
+    height: 36px;
+    position: absolute;
+    left: 302px;
+    top: 34px;
+    overflow: hidden;
+    color: #7b7373;
+    text-align: left;
+    font: 500 14px "Inter", sans-serif;
+  }
+  
+  
+  
+  .frame-6 {
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #d0b8b8;
+    border-width: 1px;
+    width: 430px;
+    height: 36px;
+    position: absolute;
+    left: 588px;
+    top: 34px;
+    overflow: hidden;
+    color: #7b7373;
+    text-align: left;
+    font: 500 14px "Inter", sans-serif;
+    padding-left: 16px;
+  }
+  
+
+  
+.frame-7 {
+    background: #d35c5c;
+    border-radius: 20px;
+    width: 119px;
+    height: 36px;
+    position: absolute;
+    left: 974px;
+    top: 34px;
+    overflow: hidden;
+    border-style: none;
+  }
+
+
+.frame-7:hover{
+    background: #9e3f3f;
+  }
+
+  
+.search {
+    color: #ffffff;
+    text-align: left;
+    font: 500 18px "Inter", sans-serif;
+    position: absolute;
+    left: 30px;
+    top: 9px;
+  }
+
+
+.frame-8 {
+    background: #efefef;
+    border-radius: 50px;
+    width: 1120px;
+    height: 49px;
+    position: absolute;
+    left: 160px;
+    top: 400px;
+    overflow: hidden;
+}
+
+.calendar {
+    width: 40px;
+    height: 36px;
+    position: absolute;
+    left: 20px;
+    top: 6px;
+}
+
+.select-state-and-district {
+    color: #5e5d5d;
+    text-align: left;
+    font: 500 16px "Inter", sans-serif;
+    position: absolute;
+    left: 90px;
+    top: 15px;
+    width: 393px;
+}

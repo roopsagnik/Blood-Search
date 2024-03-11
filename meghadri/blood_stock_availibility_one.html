@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blood Search</title>
+  <link rel="stylesheet" href="blood_stock_availibility.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Blood Search</h1>
+    <form id="searchForm">
+      <label for="state">State:</label>
+      <select id="state" name="state"></select>
+      
+      <label for="district">District:</label>
+      <select id="district" name="district"></select>
+      
+      <label for="bloodGroup">Blood Group:</label>
+      <select id="bloodGroup" name="bloodGroup">
+        <option value="A+">A+</option>
+        <option value="A-">A-</option>
+        <option value="B+">B+</option>
+        <option value="B-">B-</option>
+        <option value="O+">O+</option>
+        <option value="O-">O-</option>
+        <option value="AB+">AB+</option>
+        <option value="AB-">AB-</option>
+      </select>
+      
+      <label for="bloodComponent">Blood Component:</label>
+      <select id="bloodComponent" name="bloodComponent">
+        <option value="Whole Blood">Whole Blood</option>
+        <option value="Red Blood Cells">Red Blood Cells</option>
+        <option value="Platelets">Platelets</option>
+        <option value="Plasma">Plasma</option>
+      </select>
+      
+      <button type="submit">Search</button>
+    </form>
+    
+    <div id="results"></div>
+  </div>
+
+  <script src="bloodsearch.js"></script>
+</body>
+</html>

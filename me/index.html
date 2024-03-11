@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blood Search</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="frame-1">
+        <h1 class="blood-stock-availability"> Blood Search </h1>
+    </div>
+
+    <div class="frame-2">
+        <div class="search-for-blood">Search For Blood</div>
+      </div>
+    
+    
+    <form id="frame-3">
+      <!-- <label for="state">State:</label> -->
+      <select id="state" class="frame-4" name="state">
+        <option value="select">Select State</option>
+      </select>
+      
+      <!-- <label for="district">District:</label> -->
+      <select id="district" class="frame-5" name="district">
+        <option value="select">Select District</option>
+      </select>
+      
+      <!-- <label for="bloodGroup">Blood Group:</label> -->
+      <select id="bloodGroup" class="frame-6" name="bloodGroup">
+        <option value="select">Select Blood Group</option>
+        <option value="A+">A+</option>
+        <option value="A-">A-</option>
+        <option value="B+">B+</option>
+        <option value="B-">B-</option>
+        <option value="O+">O+</option>
+        <option value="O-">O-</option>
+        <option value="AB+">AB+</option>
+        <option value="AB-">AB-</option>
+      </select>
+      
+      <!-- <label for="bloodComponent">Blood Component:</label> -->
+      <select id="bloodComponent"  class="frame-7" name="bloodComponent">
+        <option value="select">Select Blood Component</option>
+        <option value="Whole Blood">Whole Blood</option>
+        <option value="Red Blood Cells">Red Blood Cells</option>
+        <option value="Platelets">Platelets</option>
+        <option value="Plasma">Plasma</option>
+      </select>
+      
+        <!-- <button class="search" type="submit">
+            <div >Search</div>
+        </button> -->
+    
+    
+        <button class="frame-8" type="submit">
+            <div class="search">search</div>
+        </button>
+    </form>
+    
+    <div id="results"></div>
+
+
+        <div class="frame-9">
+            <img class="calendar" src="blood/calendar.png" />
+            <div class="select-state-and-district">
+                Select State and District for stock availability.
+            </div>
+        </div>
+
+
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

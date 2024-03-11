@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+#searchForm {
+    margin-bottom: 20px;
+}
+
+#searchForm select, #searchForm input, #searchForm button {
+    margin-right: 10px;
+    padding: 10px;
+}
+
+#results {
+    margin-top: 20px;
+}

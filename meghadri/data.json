@@ -1,0 +1,15 @@
+{
+    "statesData": {
+      "Maharashtra": ["Mumbai", "Pune", "Nagpur"],
+      "Delhi": ["New Delhi"],
+      "Tamil Nadu": ["Chennai", "Coimbatore", "Madurai"],
+      "Kerala": ["Kochi", "Thiruvananthapuram", "Kozhikode"],
+      "West Bengal": ["Kolkata", "Darjeeling", "Siliguri"]
+    },
+    "bloodBankData": [
+      { "slNo": 1, "name": "Mumbai Central Blood Bank", "state": "Maharashtra", "district": "Mumbai", "category": "Government", "availability": "Yes", "type": "Blood Bank", "lastUpdated": "2024-02-28" },
+      { "slNo": 2, "name": "Delhi Heart Blood Bank", "state": "Delhi", "district": "New Delhi", "category": "Private", "availability": "Yes", "type": "Hospital", "lastUpdated": "2024-02-27" },
+      { "slNo": 3, "name": "Chennai Blood & Research Center", "state": "Tamil Nadu", "district": "Chennai", "category": "Government", "availability": "No", "type": "Blood Bank", "lastUpdated": "2024-02-26" }
+      
+    ]
+  }
