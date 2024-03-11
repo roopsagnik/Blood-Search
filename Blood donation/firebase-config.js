@@ -16,6 +16,6 @@
 
   // Initialize Firebase
   const app = initializeApp(firebaseConfig);
-  const database = firebase.database();
+  const blooddatabase = firebase.database();
 
-  export {database} 
+  export {blooddatabase} 
